@@ -1,0 +1,116 @@
+.video1{
+    display: flex;
+    width: 500px;
+    align-items: center;
+    max-width: 100%;
+    margin-bottom: 50px;
+}
+.video iframe{
+    border-radius: 10px;
+    height: 200px;
+}
+.main-video {
+    display: flex;
+    justify-content: space-around;
+    margin: 50px 0;
+}
+h1.main-heading{
+    background-color: #ab270c;
+    text-align: center;
+    color: #fff;
+}
+.video-content{
+    padding: 10px;
+}
+.video-content h1{
+    font-size: 25px;
+}
+.video-content p{
+    font-size: 15px;
+}
+.all-videos{
+    margin: 50px 0;
+    display: flex;
+    justify-content: space-around;
+}
+.all-videos .video iframe {
+    border-radius: 10px;
+    height: 200px;
+    width: 230px;
+}
+
+@media (max-width:1180px){
+    .all-videos{
+        flex-direction: column;
+        align-items: center;
+    }
+    .all-videos .video iframe, .main-video .video iframe{
+        border-radius: 10px;
+        height: 300px;
+        width: 600px;
+    }
+    /* .main-video{
+        align-items: center;
+        flex-direction: column;
+    } */
+    .video1{
+        flex-direction: column;
+    }
+    .video1 h1{
+        font-size: 50px;
+        text-align: center;
+    }
+    .video1 p{
+        font-size: 25px;
+        text-align: center;
+    }
+    .video-content{
+        width: 600px;
+    }
+}
+@media (max-width:625px){
+    .all-videos .video iframe, .main-video .video iframe{
+        border-radius: 10px;
+        height: 200px;
+        width: 400px;
+    }
+    .video-content {
+        width: 400px;
+    }
+    .video1 p {
+        font-size: 20px;
+        text-align: center;
+    }
+}
+@media (max-width:520px){
+    .all-videos .video iframe, .main-video .video iframe {
+        border-radius: 10px;
+        height: 180px;
+        width: 250px;
+    }
+    .video1 h1 {
+        font-size: 35px;
+        text-align: center;
+    }
+    .video1 {
+        display: flex;
+        width: 350px;
+        align-items: center;
+        max-width: 100%;
+    }
+}
+@media (max-width:2700px) and (min-width:1769px)
+{
+    .video1 {
+        display: flex;
+        width: 754px;
+        align-items: center;
+        max-width: 90%;
+        margin-bottom: 50px;
+    }
+    .main-video .video iframe {
+        border-radius: 10px;
+        width: 500px;
+        height: 300px;
+    }
+}

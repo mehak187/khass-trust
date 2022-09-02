@@ -1,0 +1,67 @@
+.add-btn {
+    background-color: #00ff61;
+    border: 1px solid;
+    padding: 3px 0px;
+    text-align: center;
+    color: #fff;
+}
+.nav-admin-about{
+    display: flex;
+}
+.w-full{
+    width: 1000px;
+    max-width: 100%;
+}
+.admin-home h1{
+    font-size: 40px;
+}
+.heading {
+    width: 100%;
+    max-width: 100%;
+}
+.admin-about-btn1,.admin-about-btn2{
+    border: 1px solid;
+    padding: 3px 15px;
+    background-color: #004a6a;
+    color: #fff;
+    
+} 
+.px-6{
+    text-align: center;
+}
+.admin-about-btn2{
+    background-color: #ff1d00;
+}
+li a{
+    text-decoration: unset;
+}
+.admin-heading h1{
+    font-size: 30px;
+}
+.overflow-x-auto{
+    border: 1px solid #00ffec;
+}
+.overflow-x-auto,.overflow-y-auto{
+    border-radius: 0;
+}
+.overflow-y-auto{
+    height: 800px;
+    background-color: #00ad9d;
+}
+.hover\:bg-gray-100:hover {
+    --tw-bg-opacity: 1;
+    background-color: black;
+}
+img.img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: auto;
+}
+
+a:active{
+    color: yellow;
+}
+ul li a.flex,li svg.w-6{
+    color: #fff;
+}

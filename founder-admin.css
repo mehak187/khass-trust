@@ -1,0 +1,16 @@
+.about-changes{
+    flex-direction: column-reverse;
+}
+.discripition a.img-btn{
+    margin: 0;
+    background-color: #fff;
+    color: black;
+}
+.overflow-y-auto{
+    height: 800px;
+}
+@media (max-width:600px){
+    .discripition a.img-btn,.img h1 {
+        margin: auto;
+    }
+}

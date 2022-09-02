@@ -1,0 +1,295 @@
+.latest-heading{
+    text-align: center;
+    background-color: #be1200;
+    color: #fff;
+}
+.trending-news1{
+    display: flex;
+    justify-content: space-evenly;
+}
+.out-of-school,.out-of-school img,.supply-img,.supply-img img{
+    width: 300px;
+    height: 180px;
+    object-fit: cover;
+    margin-bottom: 50px;
+}
+.covid-19,.out-of-school{
+    max-width: 100%;
+    width: 600px;
+}
+.covid-img img,.covid-content{
+    width: 600px;
+}
+.trending-news h1{
+    text-align: center;
+    margin: 50px 0;
+}
+.supply-things{
+    max-width: 100%;
+    width: 500px;
+}
+.out-of-school p{
+    width: 250px;
+    font-size: 20px;
+}
+.covid-19{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 600px;
+}
+.covid-content{
+    position: absolute;
+    top: 48%;
+    color: #ffa000;
+    padding: 10px;
+    font-size: 20px;
+}
+.out-of-school,.supply-1{
+    display: flex;
+    justify-content: space-between;
+}
+.supply-img-content p{
+    font-size: 20px;
+}
+.weekly-news{
+    max-width: 100%;
+    text-align: center;
+    width: 95%;
+    margin: auto;
+    margin-bottom: 50px;
+    background-color: #f7f4f4;
+    border: 1px solid rgba(128, 128, 128, 0.13);
+}
+.weekly-news-heading{
+    padding: 30px 0;
+}
+.weekly-news-content{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 25px;
+    text-align: justify;
+}
+.weekly-news-img img {
+    max-width: 100%;
+    width: 350px;
+    height: 200px;
+}
+.weekly-news1 {
+    max-width: 100%;
+    width: 350px;
+}
+/* ## Responsive## */
+    @media (max-width:1150px){
+
+    .covid-img img, .covid-content {
+        width: 400px;
+    }
+    .trending-news1,.weekly-news-content,.supply-1 {
+        align-items: center;
+        flex-direction: column;
+    }
+    .weekly-news-img img {
+        margin: 30px 0;
+    }
+    .supply-img, .supply-img img{
+        width: 400px;
+        height: 250px;
+        object-fit: cover;
+        margin: 50px 0;
+    }
+    .supply-img-content{
+        width: 400px;
+        height: auto;
+        text-align: center;
+    }
+    .out-of-school, .supply-1 {
+        flex-direction: column;
+    }
+    .covid-19 {
+        height: 490px;
+    }
+    .out-of-school,.covid-19{
+        align-items: center;
+    }
+    .out-of-school p {
+        width: 100%;
+        text-align: center;
+        font-weight: 700;
+    }
+}
+@media (max-width:868px) and (min-width:601px){
+    .covid-img img, .covid-content {
+        width: 550px;
+    }
+    .covid-19 {
+        height: 680px;
+    }
+    .out-of-school, .out-of-school img, .supply-img, .supply-img img {
+        width: 400px;
+        height: 280px;
+    }
+    .supply-img-content p {
+        font-size: 23px;
+    }
+    .out-of-school, .out-of-school img, .supply-img, .supply-img img {
+        width: 500px;
+        height: 280px;
+    }
+    .weekly-news1{
+        max-width: 100%;
+        width: 500px;
+        object-fit: cover;
+    }
+    .weekly-news-img img{
+        max-width: 100%;
+        width: 500px;
+        height: 400px;
+    }
+    .supply-img-content {
+        width: 500px;
+    }
+}
+@media (max-width:1150px) and (min-width:869px){
+    .covid-img img, .covid-content {
+            width: 750px;
+            top: 45%;
+    }
+    .covid-19 {
+        height: 850px;
+    }
+    .out-of-school, .out-of-school img, .supply-img, .supply-img img {
+        width: 600px;
+        height: 300px;
+    }
+    .out-of-school p {
+        font-size: 27px;
+    }
+    .supply-img-content {
+        width: 600px;
+        height: auto;
+        text-align: center;
+    }
+    .weekly-news1 {
+        max-width: 100%;
+        width: 600px;
+    }
+    .weekly-news-img img {
+        max-width: 100%;
+        width: 600px;
+        height: 400px;
+    }
+}
+@media (max-width:1768px) and (min-width:1420px){
+    .weekly-news1 {
+        max-width: 100%;
+        width: 330px;
+    }
+    .weekly-news-img img {
+        max-width: 100%;
+        width: 330px;
+        height: 200px;
+    }
+    .weekly-news-img-content p{
+        font-size: 20px;
+    }
+    .supply-img, .supply-img img {
+        width: 340px;
+        height: 180px;
+    }
+    .trending-news1 {
+        justify-content: space-around;
+    }
+    .supply-img-content p {
+        font-size: 24px;
+    }
+    .weekly-news {
+        width: 1370px;
+    }
+    .weekly-news h1{
+        padding: 50px 0;
+    }
+    .out-of-school p {
+        display: flex;
+        width: 300px;
+        font-size: 35px;
+        align-items: center;
+    }
+    .out-of-school img {
+        width: 360px;
+        height: 250px;
+    }
+}
+@media (max-width:2200px) and (min-width:1769px){
+.covid-19 {
+    height: 740px;
+}
+    .covid-19, .out-of-school,.covid-img img, .covid-content  {
+        width: 800px;
+    }
+    .out-of-school p {
+        width: 400px;
+        font-size: 35px;
+    }
+    .weekly-news1, .weekly-news-img img {
+        width: 500px;
+        max-width: 100%;
+    }    
+    .weekly-news-img img{
+        height: 400px;
+    }
+    .weekly-news-img-content p{
+        font-size: 22px;
+    }
+    .supply-things {
+        max-width: 100%;
+        width: 700px;
+    }
+    .supply-img, .supply-img img {
+        width: 500px;
+        height: 250px;
+    }
+    .supply-img-content p {
+        font-size: 30px;
+    }
+}
+@media (max-width:2700px) and (min-width:2201px){
+    .covid-19 {
+        height: 840px;
+    }
+        .covid-19, .out-of-school,.covid-img img, .covid-content  {
+            width: 900px;
+        }
+        .out-of-school p {
+            width: 500px;
+            font-size: 35px;
+        }
+        .weekly-news {
+            width: 90%;
+        }
+        .weekly-news1 ,.weekly-news-img img{
+            max-width: 100%;
+            width: 600px;
+        }
+        .weekly-news-img img{
+            height: 500px;
+        }
+        .weekly-news-img-content p{
+            font-size: 25px;
+        }
+        .weekly-news-heading {
+            font-size: 70px;
+        }
+        .supply-things {
+            max-width: 100%;
+            width: 800px;
+        }
+        .supply-img, .supply-img img {
+            width: 500px;
+            height: 250px;
+        }
+        .supply-img-content p {
+            font-size: 35px;
+        }
+    }

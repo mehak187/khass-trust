@@ -1,0 +1,13 @@
+
+.about1{
+    border: none;
+}
+.points-change,.about{
+    margin: 50px 0;
+}
+@media (max-width:500px){
+    .about-content h1{
+        background-color: #ededed;
+        font-size: 25px;
+    }
+}

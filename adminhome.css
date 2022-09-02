@@ -1,0 +1,130 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+  
+  }
+  
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  *p {
+    font-family: Lato, Helvetica, sans-serif;
+    ;
+  }
+  .nav-bar{
+    background-color: #00aa9a;
+    width: 250px;
+    padding: 20px;
+    height: 100vh;
+  }
+  .nav-bar nav ul li a i,.nav-bar nav ul li a{
+   color: #fff;
+    font-size: 27px;
+    margin-bottom: 15px;
+  }
+.nav-bar nav ul img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.main-nav{
+    display: flex;
+}
+.heading{
+    width: 90%;
+    max-width: 100%;
+}
+.admin-heading{
+    background-color: #00aa9a;
+    padding: 20px 0;
+    color:#ffa000;
+    text-align: center;
+}
+.home-option1 ul li{
+    text-align: center;
+    width: 200px;
+    margin-bottom: 15px;
+    background-color: #004a6a;
+    color: #fff;
+    padding: 3px;
+    font-size: 20px;
+}
+.admin-home{
+    margin-bottom: 50px;
+    text-align: center;
+    padding: 20px;
+}
+.home-option1,.home-option1{
+    width: 200px;
+}
+a{
+    color: unset;
+}
+.admin-home li{
+    text-align: center;
+    width: 300px;
+    margin-bottom: 15px;
+    background-color: #00fff2;
+    margin: auto;
+    padding: 3px;
+    font-size: 20px;
+}
+.home-option2 ul li{
+    text-align: center;
+    width: 300px;
+    margin-bottom: 15px;
+    background-color: #00723b;
+    color: #fff;
+    padding: 3px;
+    font-size: 20px;
+}
+.home-option{
+    display: flex;
+    justify-content: space-around;
+}
+ul li i{
+    color: #fff;
+}
+ul li.home-page{
+    background-color: gold;
+}
+
+
+@media (max-width:800px) and (min-width:500px){
+    .home-option {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .nav-bar nav ul li a i,.nav-bar nav ul li a{
+        color: #fff;
+         font-size: 22px;
+       }
+}
+@media (max-width:501px) and (min-width:400px){
+    .home-option {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .nav-bar nav ul li a i,.nav-bar nav ul li a{
+        color: #fff;
+         font-size: 18px;
+       }
+       .home-option2 ul li {
+        text-align: center;
+        width: 200px;
+        border: 1px solid;
+        margin-bottom: 15px;
+        background-color: #004a6a;
+        color: #fff;
+        padding: 3px;
+        font-size: 20px;
+    }
+}

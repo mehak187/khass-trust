@@ -1,0 +1,106 @@
+.about-content {
+    max-width: 100%;
+    width: 650px;
+    display: flex;
+    flex-direction: column;
+    margin-right: 80px;
+    height: 160px;
+    justify-content: space-between;
+}
+.about-content p {
+    font-size: 20px;
+}
+.about-img img ,.about-img{
+    max-width: 100%;
+    width: 250px;
+}
+.about1{
+    padding: 0;
+    margin-bottom: 50px;
+}
+/* ############# media quires################# */
+@media (max-width: 1325px){
+.about1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.about-content{
+    text-align: center;
+}
+.about-img img, .about-img {
+    max-width: 100%;
+    width: 700px;
+    height: 400px;
+}
+}
+@media (max-width:767px) and (min-width:581px){
+.about-content {
+    max-width: 100%;
+    width: 650px;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    height: 180px;
+}
+
+.about-img img, .about-img {
+    max-width: 100%;
+    width: 550px;
+}
+}
+@media (max-width:580px) and (min-width:410px){
+    .about-img img, .about-img {
+        max-width: 100%;
+        width: 400px;
+    }
+    .about-content {
+        max-width: 100%;
+        width: 650px;
+        display: flex;
+        flex-direction: column;
+        margin-right: 80px;
+        height: 200px;
+        justify-content: space-between;
+    }
+}
+@media (max-width: 1325px) and (min-width: 768px) {
+    .about-content {
+        max-width: 100%;
+        width: 850px !important;
+        display: flex;
+        flex-direction: column;
+        font-size: 25px;
+        height: 200px;
+        margin: auto;
+        justify-content: space-between;
+    }
+.about-img img, .about-img {
+    max-width: 100%;
+    width: 700px;
+}
+}
+@media (max-width: 1768px) and (min-width: 1326px){
+.about-img img, .about-img {
+    max-width: 100%;
+    width: 500px;
+    height: 200px;
+}
+}
+@media (max-width: 2700px) and (min-width: 1769px){
+.about-img img, .about-img {
+    max-width: 100%;
+    width: 700px;
+}
+.about-content p {
+    font-size: 40px;
+}
+.about-content {
+    max-width: 100%;
+    width: 1500px;
+    display: flex;
+    flex-direction: column;
+    height: max-content;
+    justify-content: space-between;
+}
+}
